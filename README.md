@@ -6,11 +6,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Acknowledgments](#acknowledgments)
+  - [Acknowledgments](#acknowledgments)
 
 ### Screenshot
 
@@ -23,8 +21,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### Continued development
 
