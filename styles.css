@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --color-1: hsl(0, 0%, 100%);
+    --color-2: hsl(218, 44%, 22%);
+    --color-3: hsl(220, 15%, 55%);
+    --color-4: hsl(212, 45%, 89%);
+    --txt-base: 15px;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: var(--txt-base);
+    background-color: var(--color-4);
+    line-height: 1.25;
+}
+
+.container-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 325px;
+    height: 500px;
+    background-color: var(--color-1);
+    border-radius: 15px;
+    padding: 18px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 15px;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+}
+
+.pg-wrapper {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.pg__title {
+    font-weight: 700;
+    color: var(--color-2);
+    text-align: center;
+}
+
+.pg__desc {
+    font-weight: 400;
+    color: var(--color-3);
+    text-align: center;
+}
